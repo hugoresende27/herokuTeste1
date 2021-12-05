@@ -1,7 +1,7 @@
 const express = require ("express")
 const app = express()
 
-app.get("/", function (response, request){
+app.get("/", function (request, response){
     response.setEncoding("WORKING!!!")
 })
 
